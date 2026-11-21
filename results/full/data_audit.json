@@ -1,0 +1,43 @@
+{
+  "source_url": "https://www.fueleconomy.gov/feg/epadata/vehicles.csv",
+  "downloaded_on": null,
+  "inspected_at_utc": "2026-11-21T17:35:32.422030+00:00",
+  "source_filename": "vehicles.csv",
+  "source_bytes": 21909747,
+  "sha256": "e840f1532db12a92a5f57228f137ee08704dd070aa201d02fc5d6d8a5ebe8b74",
+  "raw_rows": 50647,
+  "raw_columns": 84,
+  "filter_counts": {
+    "after_gasoline_filter": 47532,
+    "after_single_fuel_filter": 45502,
+    "after_atv_filter": 43567,
+    "excluded_total": 7080
+  },
+  "filter_rules": {
+    "fuelType1_allowed": [
+      "Midgrade Gasoline",
+      "Premium Gasoline",
+      "Regular Gasoline"
+    ],
+    "fuelType2": "empty after stripping whitespace",
+    "atvType": "empty after stripping whitespace"
+  },
+  "target_issue_counts": {},
+  "invalid_target_examples": [],
+  "duplicate_id_values_in_cohort": 0,
+  "missing_ids_in_cohort": 0,
+  "blank_predictor_counts_in_cohort": {
+    "displ": 0,
+    "cylinders": 0,
+    "year": 0,
+    "VClass": 0,
+    "drive": 1021,
+    "trany": 2,
+    "fuelType1": 0,
+    "tCharger": 33623,
+    "sCharger": 42625,
+    "startStop": 29838
+  },
+  "categorical_blank_policy": "Not reported; never infer confirmed absence",
+  "cohort_checks_passed": true
+}
